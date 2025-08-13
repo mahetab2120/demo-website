@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "composite": true, // Required for project references
+    "outDir": "./dist", // Specify output directory for emitted files
+    "declaration": true, // Generate .d.ts files for project references
+    "declarationMap": true // Optional: Generate source maps for declarations
+  },
+  "include": ["vite.config.ts"] // Adjust to include relevant files
+}
